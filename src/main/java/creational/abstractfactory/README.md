@@ -3,7 +3,7 @@
 ## Intent
 Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
 
-## Also known as
+## Also Known As
 Kit
 
 ## Applicability
