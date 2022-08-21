@@ -1,5 +1,10 @@
 package creational.abstractfactory;
 
+import domain.Door;
+import domain.Maze;
+import domain.Room;
+import domain.Wall;
+
 public class MazeFactory {
 
     public Maze MakeMaze() {
@@ -17,9 +22,4 @@ public class MazeFactory {
     public Door MakeDoor() {
         return new Door();
     }
-
-    class Maze {}
-    class Wall {}
-    class Room {}
-    class Door {}
 }

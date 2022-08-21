@@ -1,5 +1,8 @@
 package creational.abstractfactory;
 
+import domain.Room;
+import domain.Wall;
+
 public class BombedMazeFactory extends MazeFactory {
 
     public Wall MakeWall() {

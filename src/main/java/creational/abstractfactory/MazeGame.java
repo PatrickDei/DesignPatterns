@@ -2,7 +2,7 @@ package creational.abstractfactory;
 
 public class MazeGame {
 
-    public void createMaze() {
+    public void CreateMaze() {
         // for enchanted maze
         MazeFactory enchantedMazeFactory = new EnchantedMazeFactory();
 
