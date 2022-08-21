@@ -1,6 +1,8 @@
 package creational.abstractfactory;
 
 import domain.Door;
+import domain.DoorNeedingSpell;
+import domain.EnchantedRoom;
 import domain.Room;
 
 public class EnchantedMazeFactory extends MazeFactory {
@@ -14,7 +16,4 @@ public class EnchantedMazeFactory extends MazeFactory {
     }
 
     protected void CastSpell() {}
-
-    class EnchantedRoom extends Room {}
-    class DoorNeedingSpell extends Door {}
 }
