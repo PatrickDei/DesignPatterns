@@ -5,5 +5,7 @@ public class TextView {
 
     public void GetExtent() {}
 
-    public boolean IsEmpty() {}
+    public boolean IsEmpty() {
+        return true;
+    }
 }
