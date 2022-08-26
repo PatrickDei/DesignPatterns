@@ -1,5 +1,7 @@
 # GoF Design Patterns for OOP
 
+![](src/main/resources/design-pattern-relationships.jpg)
+
 ## [Abstract Factory](src/main/java/creational/abstractfactory)
 Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
 
