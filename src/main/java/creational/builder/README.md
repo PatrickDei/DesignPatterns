@@ -3,6 +3,9 @@
 ## Intent
 Separate the construction of a complex pbject from its representation so that the same construction process can create different representations
 
+## Also Known As
+Fluent API
+
 ## Applicability
 Use the Builder pattern when:
 * the algorithm for creating a complex object should be independent of the parts that make up the object and how they're assembled
